@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://main:CvMaoQ0aebDG6DtJ@mycluster.1gc1k.mongodb.net/udemyCourse?retryWrites=true&w=majority",
+    "jwtSecret":"drewSecretToken"
+}
