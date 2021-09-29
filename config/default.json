@@ -1,4 +1,6 @@
 {
     "mongoURI":"mongodb+srv://main:CvMaoQ0aebDG6DtJ@mycluster.1gc1k.mongodb.net/udemyCourse?retryWrites=true&w=majority",
-    "jwtSecret":"drewSecretToken"
+    "jwtSecret":"drewSecretToken",
+    "githubClientId":"562440e2cc35a0eb7ec8",
+    "githubSecret":"1d42776df7701c32cb25b3aaebc822c5a0ed61f2"
 }
