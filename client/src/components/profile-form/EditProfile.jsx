@@ -24,7 +24,6 @@ const EditProfile = ({profile: {profile, loading}, createProfile, getCurrentProf
 
     useEffect(()=>{
         getCurrentProfile()
-        console.log(profile)
         setFormData({
             company: loading || !profile.company ? '': profile.company,
             website: loading || !profile.website ? '': profile.website,
@@ -40,7 +39,7 @@ const EditProfile = ({profile: {profile, loading}, createProfile, getCurrentProf
             linkedIn: loading || !profile.social ? '': profile.social.linkedIn,
         })
 
-    },[loading])
+    },[loading, getCurrentProfile])
 
     const{
         company,

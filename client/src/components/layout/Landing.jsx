@@ -6,7 +6,6 @@ import { Redirect } from 'react-router'
 
 
 const Landing = ({ isAuthenticated }) => {
-    console.log(isAuthenticated)
     if(isAuthenticated){
         return <Redirect to='/dashboard'/>
     }
