@@ -5,7 +5,6 @@ const auth = require('../../middleware/auth')
 const User = require('../../models/User')
 const Profile = require('../../models/Profile')
 const Post = require('../../models/Post')
-const { restart } = require('nodemon')
 
 //@route    Post api/posts
 //@desc     make post
